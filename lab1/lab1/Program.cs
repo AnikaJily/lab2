@@ -45,7 +45,6 @@ namespace lesson
             b2.album = name(b2.album);
             b2.year = num(b2.year);
             Print(b1.song, b1.singer, b1.album, b1.year);
-            Print(b2.song, b2.singer, b2.album, b2.year);
 
         }
 
