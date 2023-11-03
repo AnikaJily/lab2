@@ -36,16 +36,15 @@ namespace lesson
             Song b1 = new Song();
             Song b2 = new Song();
             Console.WriteLine("Напишите песню, исполнителя, альбом и год: ");
-            b112321.song = name(b1.song);
+            b1.song = name(b1.song);
             b1.singer = name(b1.singer);
             b1.album = name(b1.album);
-            b123131.year = num(b1.year);
+            b1.year = num(b1.year);
             b2.song = name(b2.song);
             b2.singer = name(b2.singer);
-            b234234.album = name(b2.album);
+            b2.album = name(b2.album);
             b2.year = num(b2.year);
-            //Print(b1.song, b1.singer, b1.album, b1.year);
-            Print(b2.song, b2.singer, b2.album, b2.year);
+            Print(b1.song, b1.singer, b1.album, b1.year);
 
         }
 
